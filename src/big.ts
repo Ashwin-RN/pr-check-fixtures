@@ -298,7 +298,7 @@ function f296(x: number): number { return x + 296; }
 function f297(x: number): number { return x + 297; }
 function f298(x: number): number { return x + 298; }
 function f299(x: number): number { return x + 299; }
-function f300(x: number): number { return x + 300; }
+function f300(x: number): number { console.log(x); return x + 300; }
 function f301(x: number): number { return x + 301; }
 function f302(x: number): number { return x + 302; }
 function f303(x: number): number { return x + 303; }
@@ -898,7 +898,7 @@ function f896(x: number): number { return x + 896; }
 function f897(x: number): number { return x + 897; }
 function f898(x: number): number { return x + 898; }
 function f899(x: number): number { return x + 899; }
-function f900(x: number): number { return x + 900; }
+function f900(x: number): number { return x * 900; }
 function f901(x: number): number { return x + 901; }
 function f902(x: number): number { return x + 902; }
 function f903(x: number): number { return x + 903; }
